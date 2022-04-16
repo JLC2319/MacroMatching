@@ -77,19 +77,17 @@
 
 
 
+    {
+        testing = new Talkshow()
 
-    testing = new Talkshow()
+        for (let set of testing.roboQandA){
+            for (let q of set.phrases){
+                console.log(q, testing.getPhraseType(q))
+                if (testing.getPhraseType(q) == 'operative'){console.log(testing.parseOperative(q))}
 
-    for (let set of testing.roboQandA){
-        for (let q of set.phrases){
-            console.log(q, testing.getPhraseType(q))
-            if (testing.getPhraseType(q) == 'operative'){console.log(testing.parseOperative(q))}
-
+            }
         }
     }
-
-
-
 
 
 
