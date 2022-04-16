@@ -66,11 +66,11 @@
         
         //TODO: Matching against test phrases
         
-        //TODO: Kick your butt. 
+        //TODO: 
         
-        //TODO: you smell; no i don't
+        //TODO: 
 
-        //TODO: thats okay, take your time
+        //TODO: 
 
         
     }
